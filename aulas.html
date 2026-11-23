@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width,initial-scale=1" name="viewport"/>
+  <meta content="Guia prático de acessibilidade na universidade" name="description"/>
+  <title>
+   Aulas e materiais acessíveis | Campus sem Barreiras
+  </title>
+  <link href="assets/css/style.css" rel="stylesheet"/>
+  <script defer="" src="assets/js/script.js">
+  </script>
+ </head>
+ <body>
+  <a class="skip" href="#conteudo">
+   Ir para o conteúdo principal
+  </a>
+  <header class="header">
+   <div class="wrap head">
+    <a aria-label="Campus sem Barreiras, início" class="brand" href="index.html">
+     <span class="logo">
+      <svg aria-hidden="true" fill="none" height="20" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" viewbox="0 0 24 24" width="20">
+       <circle cx="12" cy="4" r="2">
+       </circle>
+       <path d="M4 9l8 2 8-2M12 11v9m0-5-5 6m5-6 5 6">
+       </path>
+      </svg>
+     </span>
+     <span>
+      campus
+      <span class="brand-light">
+       sembarreiras
+      </span>
+     </span>
+    </a>
+    <button aria-controls="nav" aria-expanded="false" class="menu" id="menu">
+     Menu
+    </button>
+    <nav aria-label="Páginas do site" id="nav">
+     <a href="index.html">
+      Início
+     </a>
+     <a href="espacos.html">
+      Espaços
+     </a>
+     <a aria-current="page" href="aulas.html">
+      Aulas e materiais
+     </a>
+     <a href="tecnologia.html">
+      Tecnologia
+     </a>
+     <a href="participacao.html">
+      Participação
+     </a>
+    </nav>
+   </div>
+  </header>
+  <div class="toolbar">
+   <div class="wrap tools">
+    <span class="tool-label">
+     Ajustes de leitura
+    </span>
+    <button aria-label="Diminuir tamanho da fonte" id="less" type="button">
+     A−
+    </button>
+    <button aria-label="Aumentar tamanho da fonte" id="more" type="button">
+     A+
+    </button>
+    <button aria-pressed="false" id="contrast" type="button">
+     Alto contraste
+    </button>
+    <button aria-pressed="false" id="focus" type="button">
+     Leitura simples
+    </button>
+    <button id="speak" type="button">
+     Ouvir texto
+    </button>
+    <button id="stop" type="button">
+     Parar áudio
+    </button>
+    <button id="reset" type="button">
+     Restaurar
+    </button>
+   </div>
+  </div>
+  <main id="conteudo" tabindex="-1">
+   <div class="hero">
+    <div class="wrap">
+     <p class="eyebrow">
+      ACESSIBILIDADE NA UNIVERSIDADE
+     </p>
+     <h1>
+      Aulas e materiais acessíveis
+     </h1>
+     <p class="lead">
+      Uma informação importante não deveria existir apenas em uma imagem, em uma fala ou em um arquivo difícil de ler.
+     </p>
+    </div>
+   </div>
+   <div class="wrap content">
+    <section class="section">
+     <h2>
+      Vídeos e gravações
+     </h2>
+     <p>
+      Legendas ajudam pessoas surdas e também quem está em um ambiente barulhento. Uma transcrição permite consultar o conteúdo sem depender do áudio.
+     </p>
+     <details>
+      <summary>
+       Exemplo de transcrição de um aviso de aula
+      </summary>
+      <p>
+       Professor: “A atividade será entregue na sexta-feira, até as 18 horas, pela plataforma da disciplina.”
+      </p>
+      <p>
+       Informação principal: entrega na sexta-feira, às 18 horas, pela plataforma da disciplina.
+      </p>
+     </details>
+    </section>
+    <section class="section">
+     <h2>
+      Slides, imagens e documentos
+     </h2>
+     <ul>
+      <li>
+       Usar títulos em ordem lógica, sem pular níveis.
+      </li>
+      <li>
+       Descrever imagens que transmitam informação relevante.
+      </li>
+      <li>
+       Evitar fotografias de texto quando o conteúdo pode ser escrito normalmente.
+      </li>
+      <li>
+       Utilizar links com nomes que indiquem o destino.
+      </li>
+      <li>
+       Não diferenciar informações somente por vermelho ou verde.
+      </li>
+     </ul>
+    </section>
+    <section class="section">
+     <h2>
+      Como escrever um aviso claro
+     </h2>
+     <div class="example">
+      <strong>
+       Menos claro:
+      </strong>
+      <p>
+       “Entrega conforme combinado. Veja lá.”
+      </p>
+      <strong>
+       Mais claro:
+      </strong>
+      <p>
+       “Envie o relatório em PDF na plataforma da disciplina até sexta-feira, às 18 horas.”
+      </p>
+     </div>
+    </section>
+   </div>
+  </main>
+  <footer>
+   <div class="wrap footer">
+    <div>
+     <strong>
+      Campus sem Barreiras
+     </strong>
+     <p>
+      Informação e inclusão na vida universitária.
+     </p>
+    </div>
+    <div class="footer-right">
+     <p>
+      © 2026 Campus sem Barreiras.
+     </p>
+     <p>
+      Todos os direitos reservados.
+     </p>
+    </div>
+   </div>
+  </footer>
+  <div aria-live="polite" class="sr-only" id="status" role="status">
+  </div>
+ </body>
+</html>
